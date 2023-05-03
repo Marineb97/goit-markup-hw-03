@@ -107,6 +107,8 @@ body {
 }
 
 .menu-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -212,14 +214,13 @@ body {
   text-transform: capitalize;
   color: var(--menu-color);
 }
-.values-title {
-  margin-bottom: 8px;}
+
 
 .values-menu {
   display: flex;
   gap: 24px;
 }
-.values-menu-item: {
+.values-menu-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -236,6 +237,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .description {
   font-size: 16px;
