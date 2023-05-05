@@ -6,6 +6,7 @@
   --background-color: #2e2f42;
   --text-color: #434455;
   --btn-background-color: #f4f4fd;
+  --background-wrapper:  #ffffff;
 }
 
 h1,
@@ -41,7 +42,7 @@ button {
 body {
   font-family: var(--main-font-family);
   color: var(--secondary-text-color);
-  background-color: #ffffff;
+  background-color: var(--background-wrapper);
 }
 .section {
   padding-top: 120px;
@@ -70,8 +71,6 @@ body {
 
 /* header */
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc 
 }
 .page-header-container {
@@ -97,7 +96,7 @@ body {
   margin-right: 40px;
 }
 
-.logo {
+.logo-header {
   margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -111,6 +110,7 @@ body {
   padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
+  display: block;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--menu-color);
@@ -126,21 +126,11 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .log {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 .page-adress {
@@ -177,7 +167,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color:  var(--background-wrapper);
 }
 .modal-open-btn {
   display: block;
@@ -195,7 +185,7 @@ body {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
+  color:  var(--background-wrapper);
 }
 
 .modal-open-btn:hover,
@@ -225,6 +215,8 @@ body {
 }
 
 /* Services */
+
+
 .services-list {
   display: flex;
   flex-wrap: wrap;
@@ -236,7 +228,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(-background-color);
   margin-bottom: 8px;
 }
 .description {
@@ -257,8 +249,8 @@ body {
 }
 
 .employees-list-item {
-  background-color: #ffffff;
-  box-shadow: 0px 1px 6px;
+  background-color:  var(--background-wrapper);
+  box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 .employee-name {
@@ -275,7 +267,7 @@ body {
   padding-left: 16px; 
   padding-right: 16px;
   text-align: center;
-  background: #ffffff;
+  background: var(--background-wrapper);
   
 }
 
