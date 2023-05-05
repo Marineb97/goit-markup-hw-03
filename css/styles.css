@@ -216,7 +216,9 @@ body {
 
 /* Services */
 
-
+.services {
+  padding-bottom: 120px;
+}
 .services-list {
   display: flex;
   flex-wrap: wrap;
